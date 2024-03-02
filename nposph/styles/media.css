@@ -1,0 +1,427 @@
+@media all and (max-width: 1300px){
+	
+
+	.preim{
+		display: block;
+		margin: auto;
+	}
+
+	.present-img, .present-wrap, .preim{
+		display: block;
+		margin: auto;
+	}
+
+	.present {
+		display: ;
+	}
+    
+    .head-present {
+        font-size: 2rem;
+    }
+    .body-present {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .body-present li , .preim ul li{
+        line-height: 2.2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .slider h2 {
+    font-size: 20px;
+  }
+  .slider>div {
+    padding: 0 2%;
+  }
+  .control label {
+    font-size: 35px;
+  }
+  .slider .button {
+    padding: 0 15px;
+  }
+}
+
+
+@media all and (max-width: 1175px){
+	.obr {
+		font-size: 1.3rem;
+	}
+    .h2 {
+        font-size: 3rem;
+    }
+
+    .contacts {
+        width: 29%;
+    }
+
+    .obratka {
+        width: 50%;
+    }
+}
+@media all and (max-width: 1125px){
+    .present-img{
+        min-width: 350px;
+    }
+    .present-wrap {
+        min-width: 350px;
+        font-size: 1.8rem;
+    }
+    .castil1 {
+        font-size: 1.6rem;
+    }
+    .body-present {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+	
+}
+@media all and (max-width: 1101px){
+    .item-c {
+        width: calc(30%);
+    }
+}
+@media all and (max-width: 950px){
+    .link-number {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    
+    .body-present p,.preim p{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+}
+@media all and (max-width: 875px){
+    .present-img{
+        min-width: 300px;
+    }
+    .present-wrap {
+        padding-top: 20px;
+        min-width: 300px;
+        font-size: 1.8rem;
+    }
+    .castil {  
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .pos1 {
+        width: 70%;
+    }
+    
+    .link-number {
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .phone {
+        font-size: 14px;
+    }
+    .fot-wrap p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .fot-wrap ul li{
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+    .teh-har {
+        font-size: 1.4rem;
+    }
+	
+}
+@media all and (max-width: 790px){
+    textarea {
+        width: 95%;
+    }
+    .head-p {
+	    font-size: 1.2rem;
+    }
+}
+
+
+@media all and (max-width: 825px){
+    .item-c {
+        width: calc(50% - 30px);
+    }
+}
+
+@media all and (max-width: 769px){
+    .link-number {
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .phone {
+        font-size: 12px;
+    }
+    .fas, .far {
+        margin-right: 0px;
+    }
+    
+}
+
+@media all and (max-width: 700px){
+    .nav-wrapper {
+        display: none;
+    }
+    
+    .menu {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-start;
+    }
+    
+.menu-content {
+    max-height: 0;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+    background: #2779a7;
+}
+.collapsible-menu {
+    display: block;
+    width: 100%;
+    padding: 0px 30px;
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu ul li {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.collapsible-menu label {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2rem;
+    display: block;
+    cursor: pointer;
+/*    background: url(../imgs/menu.png) no-repeat left center;*/
+    background-size: cover;
+    padding: 10px 0 10px 10px;
+    color: #ffffff;
+}
+input#menu {
+    display: none;
+}
+input:checked +label {
+/*    background-image: url(../imgs/close.png);*/
+}
+.menu-content ul li {
+    color: black;
+}
+/* Эффект переключения*/
+input:checked ~ label {
+/*    background-image: url(../imgs/close.png);*/
+}
+input:checked ~ .menu-content {
+    max-height: inherit;
+    overflow: visible;
+}
+}
+
+@media all and (max-width: 700px){
+    .link-number {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .phone {
+        font-size: 12px;
+    }
+    .h2 {
+        font-size: 2rem;
+    }
+    .fot-wrap p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .item-c h3 {
+	line-height: 2rem;
+	font-size: 1.5rem;
+    }
+    .item-c p {
+	line-height: 1.8rem;
+	font-size: 1.3rem;
+    }
+    .sub {
+        font-size: 1rem;
+    }
+}
+
+
+@media all and (max-width: 600px){
+    .link-number {
+        font-size: 1rem;
+    }
+    .fot-wrap ul li{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .oborud-har {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .upac {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .preim a{
+        font-size: 1.4rem;
+    }
+}
+@media all and (max-width: 550px){
+    .body-present li , .preim ul  li{
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    
+    .head-present {
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    .item-c {
+        min-width: 30%;
+    }
+    .item-c h3, .item-c p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .catal {
+        width: 90%;
+    }
+    t {
+        display: none;
+    }
+    .sub {
+        font-size: 0.7rem;
+    }
+    .body-present p,.preim p{
+        font-size: 1.2rem;
+        padding: 5px;
+        line-height: 1.4rem;
+    }
+}
+
+
+@media all and (max-width: 480px){
+    .link-number {
+        font-size: 0.8rem;
+    }
+    .phone {
+        padding: 0;
+        margin: 0;
+    }
+    .my-contact {
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+    .obr {
+		font-size: 0.9rem;
+	}
+    .contacts {
+        width: 30%;
+    }
+    .obratka {
+        width: 60%;
+    }
+    .present-img{
+        min-width: 200px;
+    }
+    
+}
+
+@media all and (max-width: 425px){
+    .footer {
+        padding: 20px;
+        min-height: 100px;
+        
+    }
+    .teh-har {
+        font-size: 1rem;
+    }
+    .oborud-har {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .fot-wrap {
+        min-width: 20%;
+        width: auto;
+    }
+    .inform {
+        max-width: 55%; 
+    }
+    .end{
+        min-height: 100px;
+        max-height: 100px;
+        height: auto;
+        
+    }
+    .present-wrap {
+        min-width: 200px;
+        font-size: 1.6rem;
+    }
+    .head-present {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .body-present {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .body-present li , .preim ul  li{
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (max-width: 345px){
+    .link-number {
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    i {
+        font-size: 0.7rem;
+    }
+    .h2 {
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

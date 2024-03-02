@@ -1,0 +1,51 @@
+
+
+.catal {
+	width: 80%;
+/*	background: #cbd1d1;*/
+    padding-top: 100px;
+	min-height: 500px;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+}
+
+
+
+
+.item-c {
+	
+	min-width: 200px;
+    width: calc(25% - 30px);
+	margin: 10px;
+	padding: 5px;
+	background: #2779a7;
+	text-align: center;
+    color: #fff;
+}
+
+.item-c:hover {
+    transform: scale(1.02);
+}
+
+
+
+.item-c img {
+	width: 100%;
+
+}
+
+.item-c h3 {
+	line-height: 2,4rem;
+	font-size: 2rem;
+
+}
+
+.item-c p {
+	line-height: 2rem;
+	font-size: 1.6rem;
+}

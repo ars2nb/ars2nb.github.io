@@ -1,0 +1,62 @@
+.head-p {
+	font-size: 2rem;
+}
+
+.opis {
+	font-size: 2rem;
+}
+.body-present p{
+	border-radius: 10px;
+	border: 3px solid #487f8c;
+	padding: 10px;
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+.preim {
+	width: 60%;
+	font-size: 2rem;
+	margin: 80px 0;
+    padding: 30px 0;
+}
+.preim a{
+	color: #2779a7;
+}
+
+.preim li {
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+
+
+.teh-har {
+	padding: 3px;
+	width: 90%;
+	margin: auto;
+}
+
+.teh-har td ,th{
+	border: 1px solid;
+	padding: 3px;
+}
+
+p {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.preim p {
+    padding-left: 15px;
+}
+.oborud-har {
+    padding-bottom: 30px;
+}
+
+.upac {
+    padding-left: 15px;
+}
+
+.preim ul {
+    padding-left: 35px;
+}
