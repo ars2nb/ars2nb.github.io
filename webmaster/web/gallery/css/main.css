@@ -1,0 +1,194 @@
+body {
+	background: #587246;
+}
+
+
+
+.gallery {
+	width: 60%;
+	min-height: 400px:;
+	background: #E4A010;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.element {
+	width: calc(50% - 10px);
+	height: 200px;
+	background: #293133;
+	margin: 5px;
+	/*время изнения по :hover*/
+
+transition: 1s;
+}
+
+
+
+
+/*Изменение стиля по наведению по элементу*/
+
+.i1:hover {
+	height: 300px;
+}
+
+
+.i2:hover {
+	transform: scale(9.2);
+}
+
+
+.i3:hover {
+	transform: rotate(9000000000000000000000000000000000000000000000000000000deg);
+}
+
+
+.i4 {
+	filter: blur(500px);
+}
+
+
+.i4:hover {
+	transform: translate(1000px);
+	filter: blur(0px);
+}
+
+
+.i5:hover {
+	transform: skew(10deg);
+
+}
+
+
+.i6 {
+	filter: sepia(5000%);
+}
+
+
+.i7 {
+	filter: grayscale(5000%);
+
+}
+
+
+.i8 {
+	filter: saturate(5000%);
+
+}
+
+
+.i9 {
+	filter: hue-rotate(9000deg);
+
+}
+
+
+
+.i10 {
+	filter: drop-shadow(16px 16px 20px blue);
+
+}
+
+
+.i11 {
+	filter: inherit;
+}
+
+
+.i12{
+	filter: brightness(9.0);
+}
+
+
+.i13 {
+	filter: contrast(2000%);
+}
+
+
+.i14:hover {
+	transform: scale3d(2.5, 1.2, 0.3);
+}
+
+
+.i15:hover {
+	transform:	matrix(4, 1, 1, 1, 2, 2);
+}
+
+
+.i16:hover {
+	transform: rotate(9.5turn);
+}
+
+
+
+.i17:hover {
+	transform: rotate3d(1, 2, 3, 10deg);
+}
+
+
+.i18:hover {
+	transform: rotateX(1000000000000000000deg);
+}
+
+
+
+.i19:hover {
+	transform: rotateY(1000000000000deg);
+}
+
+
+
+.i20:hover {
+	transform: rotateZ(100000000000000000000deg);
+}
+
+
+.i21:hover {
+	transform: translate3d(12px, 50%, 3em);
+}
+
+
+.i22:hover {
+	transform: translateX(2000000000000em);
+}
+
+.i23:hover {
+	transform: translateY(3000000000000in);
+}
+
+.i24:hover {
+	transform: translateZ(2000000000000px);
+}
+
+.i24:hover {
+	transform: scaleX(9);
+}
+
+
+.i25:hover {
+	transform: scaleY(9.5);
+}
+
+
+.i26:hover {
+	transform: scaleZ(1.3);
+}
+
+
+.i27:hover {
+	transform: skew(30deg, 20deg);
+}
+
+
+.i28:hover {
+	transform: skewX(30deg);
+}
+
+
+.i29:hover {
+	transform: skewY(1.07rad);
+}
+
+
+

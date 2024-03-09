@@ -1,0 +1,54 @@
+* {
+	color: #2779af;
+}
+
+.main {
+	height: 1000px;
+	width: 25%;
+	float: right;
+}
+
+
+.input {
+	border-right: 4px #2779af dashed;
+}
+
+
+.parag {
+	font-size: 50px;
+
+}
+
+
+.name {
+	border: none;
+	border-bottom: solid;
+}
+
+.email {
+	border: none;
+	border-bottom: solid;
+
+}
+
+
+.phone {
+	border: none;
+	border-bottom: solid;
+
+}
+
+
+.submit {
+	background: #2779af;
+	border-radius: 15px;
+  	color: white;
+  	padding: 16px;
+ 	text-decoration: none;
+  	margin: 4px 2px;
+}
+
+
+input:focus {
+	outline: none;
+}

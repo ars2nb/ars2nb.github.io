@@ -1,0 +1,99 @@
+
+body {
+	background:grey;
+    font-size: 30px;
+/*  цвет текста  */
+	color : white;
+/* межсимвольный интервал */
+	letter-spacing: 10px;
+/* жирность текста */
+	font-weight: -;
+
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.abrakadabra {
+	color : navajowhite;
+	/* жирность текста */
+	font-weight: bold;
+
+}
+
+/*Этот текст вообще никто не увидит хехехе*/
+
+div {
+ 	/* ширина */
+	width: 100px;
+
+	/* высота */
+	height: 100px;
+
+	background: blanchedalmond;
+
+	/* Внешние отступы */
+/*	margin: 10px;*/
+}
+
+
+.pon1 {
+	width: 200px;
+	background: palevioletred;
+}
+
+.pon2 {
+/* блок по середине */
+	margin: auto;
+	padding: 10px;
+}
+
+.pon3 {
+/* внешний левый отступ */
+	margin-left: 100px;
+/* внутренный отступ */
+	padding: 10px;
+}
+
+.m1 {
+	width: 500px;
+	height: 400px;
+	background: red;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.m2 {
+	width: 360px;
+	height: 300px;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.m3 {
+	width: 250px;
+	height: 200px;
+	background: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.m4 {
+	width: 150px;
+	height: 150px;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}

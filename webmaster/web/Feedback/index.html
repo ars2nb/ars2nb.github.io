@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="main">
+			<p class="parag">Сообщение:</p>
+
+	<div class="input">				
+		<label for="name">Ваше имя:</label>
+			<input class="name" type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+		<br>
+		<br>
+		<label for="email">E-mail:</label>
+		<input class="email" type="email" id="email" pattern=".+@globex\.com" size="30" required />
+		<br>
+		<br>
+		<label for="phone">Номер телефона:</label>
+		<input class="phone" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+		<br>
+		<br>
+		<label for="name">Сообщение:</label>
+		<textarea cols="40" rows="5"></textarea>
+
+		<input class="submit" type="submit" />
+
+					
+				</div>
+
+	</div>
+</html>

@@ -1,0 +1,16 @@
+login : b12_35094496
+site : cpanel.byethost.com
+
+
+
+Alt+Shift+2 - разделение на два окна
+
+
+
+https://colorhunt.co/
+https://colorpicker.me/
+https://www.flaticon.com/ru/
+
+
+
+<!-- a+tab - <a href="index.html">TEXT</a> -->
