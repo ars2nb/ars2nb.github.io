@@ -1,0 +1,303 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Stem-Light';
+}
+
+
+html, body {
+  height: 100%;
+
+}
+
+body {
+}
+
+
+@font-face {
+  font-family: "Stem-Light";
+  src: url("fonts/Stem-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+
+@font-face {
+  font-family: "Stem-Medium";
+  src: url("fonts/Stem-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+
+.shapka {
+  width: 100%;
+  height: 60px;
+  z-index: 3;
+/*  position: fixed;*/
+  background: white;
+}
+
+
+.shapka-align {
+  width: 95%;
+  margin: auto;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* Обертка для карточек товаров */
+.card-wrapper {
+    display: flex; /* Используем flex-контейнер */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+}
+
+/* Каждая карточка товара */
+.card {
+    flex: 0 0 calc(50% - 20px); /* Устанавливаем ширину карточки в 50% минус отступы */
+    margin: 10px; /* Отступ между карточками */
+}
+
+
+/* Стили для изображений в карточках товаров */
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.text {
+text-align: center;
+}
+
+
+
+
+.logo {
+/*  height: inherit;*/
+  width: 200px;
+  font-weight: 600;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+
+.img {
+width: 50px;
+height: 50px;
+}
+
+.menu {
+/*  height: 70px;*/
+
+}
+
+
+.menu-list {
+
+}
+
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px;
+  margin: auto;
+  padding: 15px;
+}
+
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 1s;
+  padding: 20px 15px;
+}
+
+.menu-link:hover {
+/*  color: goldenrod;*/
+/*  letter-spacing: 3px;*/
+  background: black;
+  color: white;
+}
+
+
+
+.header {
+  background: url(img/orig.png);
+  height: calc(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.header:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+
+.box {
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+
+.h1 {
+  font-size: 45px;
+  letter-spacing: 4px;
+  padding: 10px;
+  margin-bottom: 5%;
+  font-family: 'Stem-Medium';
+}
+
+
+
+.subtitle {
+  margin-bottom: 15px;
+}
+
+.vizitka-wrapper {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+
+
+.title-viz {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+.text-box {
+  width: 50%;
+  text-align: center;
+
+}
+
+
+
+
+
+
+.viz {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.kard-viz {
+  width: 240px;
+  height: 250px;
+  margin-right: 5%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+.kard-img {
+  width: 100%;
+  max-height: 250px;
+  pointer-events: none;
+}
+
+
+
+/*.kard-img{
+  width: 100%;
+  max-height: 200px;
+}
+*/
+
+
+
+
+
+
+.kard-subtitle {
+/*  text-align: center;*/
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+.main {
+  width: 90%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+.third {
+  height: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex-direction: column;
+  background-position: center;
+}
+
+
+.text2 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
