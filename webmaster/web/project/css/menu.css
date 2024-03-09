@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.menu-buttons a, .menu-categories a, .menu-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-buttons a:hover, .menu-categories a:hover, .menu-links a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-categories {
+    width: 200px;
+    float: left;
+    padding: 10px;
+    background: #e0e0e0;
+}
+
+
+h1 {
+    flex-wrap: wrap;
+}
+
+.menu-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-categories li {
+    margin-bottom: 10px;
+}
+
+.menu-categories a {
+    display: block;
+}
+
+.menu-block:target {
+    background-color: #f0f0f0;
+}
+
+.menu-links {
+    margin-top: 20px;
+}
+
+.menu-content {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+/*    width: 100%;*/
+/*    margin: auto;*/
+}
+
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+.eda:hover {
+    transform: scale(9.2);
+}
+
+.menu-block {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.eda {
+    width: auto;
+    height: 100px;
+    transition: transform 0.6s;
+    pointer-events: none;
+}
+
+img:hover {
+    transform: scale(1);
+}
+
+.menu-text {
+    margin-left: 10px;
+}
+
+.price {
+    margin-right: 35px;
+    text-align: right;
+}
+
+.title {
+    font-size: 25px;
+}
+
+
+.shapka {
+    position: static;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles{
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: #151414;
+  display: block;
+  border-radius: 2px;
+}
+.akeconsa-udaneles a span {
+  color: #f7f0f0;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<div class="menu-list">		
+
+												<li id="item-2207">
+														<div class="pic">								
+																<a href="https://www.vremena-goda.ru/upload/iblock/dba/cezar_kuriza_ext.jpg?2021072301" title="Салат «Цезарь» с курицей"><img src="./Меню ресторана «Времена года» с ценами_files/cezar_kuriza.jpg" alt="Салат «Цезарь» с курицей"></a>								
+							</div>
+														<div class="desc">
+								<div class="note">
+									<div class="title">Салат «Цезарь» с курицей</div>
+									<div class="txt">
+																				<nobr>125/65 г.</nobr>								
+									</div>					
+								</div>
+								<div class="price">
+									<span>590</span> руб.
+								</div>
+							</div>
+						</li>
+
+
+
+
+
+
+
+
+
+
+	<div class="menu-list">		
+							
+					<ul class="tbl">
+<li id="item-2207">
+	<div class="pic">							
+</div>
+	<div class="desc">
+	<div class="note">
+	<div class="title">Салат «Цезарь» с курицей</div>
+	<div class="txt">510 г.</nobr>								
+	</div>					
+	</div>
+	<div class="price">
+	<span>590</span> руб.
+	</div>
+	</div>
+	</li>
+
+
+
+
+
+
+
+
+https://www.vremena-goda.ru/menu/

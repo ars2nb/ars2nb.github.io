@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.shapka {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    position: static;
+}
+
+.shapka-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 60vh;
+    margin: 80px auto 0;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contact-image {
+    flex: 1;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.details-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.details-text {
+    margin-bottom: 20px;
+}
+
+.details-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-text {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
