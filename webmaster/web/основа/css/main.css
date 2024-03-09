@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+   @font-face {
+    font-family: Qanelas Black; /* Гарнитура шрифта */
+    src: url(../fonts/Qanelas-Black.ttf); /* Путь к файлу со шрифтом */
+   }
+   h1 {
+    font-family: Qanelas Black, cursive;
+}
+
+font-family: Qanelas Black, cursive;
+
+body {
+/*	background: #D2E0FB;*/
+background: url(../img/11.png);
+	color: #8EACCD;
+}
+
+
+.menu {
+	background: #D7E5CA ;
+	width: 70%;
+	height: 60px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.logo {
+	height: 60px;
+	width: 150px;
+	background: blanchedalmond;
+}
+
+
+.menu-list {
+/*		height: 60px;*/
+
+}
+
+.menu-list ul li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+
+.content {
+	width: 60%;
+	min-height: 600px;
+	background: #F9F3CC;
+	margin: auto;
+	padding: 15px;
+	font-size: 23px;
+}
+
+a {
+	text-decoration: none;
+	color: #8EACCD;
+	font-weight: bolder;
+	transition: 0.8s;
+}
+
+a:hover {
+	color: #9fab68;
+
+}
+
+p {
+	margin-top: 20px;
+	font-family: Qanelas Black, cursive;
+}
+
+.image {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.image div {
+	width: calc(50% - 20px);
+	height: 200px;
+	background: blue;
+	background-size: cover;
+	margin: 5px;
+
+
+
+}
+
+
+
+.images-2 {
+	width: 100%;
+	columns: 4;
+	column-gap: 3px;
+}
+
+
+.images-2 img {
+	width: 100%;
+}
+
+
+/*.i1 {
+	width: 300px;
+
+}
+
+.i2 {
+	height: 200px;
+	
+}
+
+.i3 {
+	width: 100px;
+	height: 200px;
+}
+
+.i4 {
+	width: 300px;
+	height: 300px;
+	background: url(https://eurobyte.ru/img/articles/chto-takoe-html/image1.jpeg);
+}
+
+.i5 {
+	width: 300px;
+	height: 300px;
+	background: url(../img/new_img.png);
+	background-size: contain;
+}*/

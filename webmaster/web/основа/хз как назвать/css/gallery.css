@@ -1,0 +1,39 @@
+body {
+	background: white;
+}
+
+
+
+.shapka {
+/*	background: grey;*/
+}
+
+
+
+.gallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+}
+
+
+
+.element {
+	width: calc(50% - 20px);
+	height: 300px;
+	margin: 9px;
+	border: 1px solid black;
+	transition: 0.5s;
+}
+
+
+
+
+
+.k1:hover {
+	filter: drop-shadow(10px -10px);
+}
+.k1:hover {
+	filter: drop-shadow(-10px 10px);
+}
