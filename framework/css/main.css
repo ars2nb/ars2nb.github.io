@@ -1,0 +1,59 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+img {
+	pointer-events: none;
+}
+
+
+.slider {
+	margin-bottom: 100px;
+}
+
+
+a {
+	color: #b4ad9e;
+}
+
+
+a:hover {
+	color: #898377;
+}
+
+
+header .navbar-brand {
+font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+.nav-item {
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+
+
+
+header .nav-item a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: aqua;
+	height: 1px;
+	transform: scale(0);
+	transition: all 0.6s;
+}
+
+
+
+header .nav-item a:hover:after {
+	transform: scale(1);
+}
+.p-text {
+	margin-bottom: 50px;
+}
