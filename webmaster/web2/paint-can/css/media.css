@@ -1,0 +1,6 @@
+@media (max-width: 412px) and (max-height: 930px){
+    .catalog {
+        display: flex;
+        
+    }
+}
