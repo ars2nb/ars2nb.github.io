@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться с нами</title>
+    <style>
+        .contactform-maps {
+          display: flex;
+          justify-content: space-between;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .contactform, .map {
+          width: 48%;
+          padding: 20px;
+          border-radius: 8px;
+        }
+
+        .cf-h2, .map-h2 {
+          margin-bottom: 15px;
+          color: #333;
+          font-size: 24px;
+          font-weight: bold;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .cf-form {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .input-group {
+          display: flex;
+          margin-bottom: 10px;
+        }
+
+        .input-group input {
+          width: calc(50% + 10px); /* Немного больше, чем поле Email */
+          margin-right: 10px;
+        }
+
+        .contact-form input[type="tel"],
+        .contact-form input[type="text"] {
+          width: calc(100% + 10px); /* Немного больше, чем ширина поля ввода */
+        }
+
+        .contactform input {
+          margin-bottom: 10px;
+          padding: 15px;
+          border: none;
+          border-radius: 50px;
+          font-size: 14px;
+          background-color: #f0f5ff;
+        }
+
+        .cf-textarea {
+          height: 150px;
+          resize: none;
+          padding: 15px;
+          border: none;
+          border-radius: 20px;
+          font-size: 14px;
+          background-color: #f0f5ff;
+          
+        }
+        
+        .cf-btn {
+          padding: 15px 20px;
+          background-color: #d9534f;
+          color: white;
+          border: none;
+          border-radius: 30px;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .location-map iframe {
+          width: 100%;
+          height: 450px;
+          border: none;
+          border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="contactform-maps">
+  <div class="contactform">
+    <h2 class="cf-h2">Contact Us</h2>
+    <form class="cf-form">
+      <div class="input-groups">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="input-group">
+        <input type="tel" placeholder="Phone">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea class="cf-textarea" placeholder="Message"></textarea>
+      <button class="btn cf-btn" type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="map">
+    <h2 class="map-h2">Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12788.632570109363!2d174.731559!3d-36.742775!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1715979690084!5m2!1sru!2sus" width="600" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Slider</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link href="bootstrap-5.3.3-dist/scss/_variables.scss" rel="stylesheet/scss" type="text/css">
+  <style>
+    .review-user {
+      padding: 20px;
+      max-width: 400px;
+      height: 190px;
+      position: relative;
+      background-color: white;
+    }
+    .review-text {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      color: grey;
+      display: flex;
+      padding-right: 90px;
+    }
+    .review-name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px;
+      color: #FFA726;
+      margin-top: 15px;
+    }
+    .review-title {
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      color: #999;
+    }
+    .review-quote {
+      position: absolute;
+      bottom: -7px;
+      right: 20px;
+      width: 100px;
+    }
+    .reviews {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+      
+      .carousel-inner, .carousel {
+          background-color: #ffefef;
+      }
+      
+      .carousel-poloska {
+    content: '';
+    background: white;
+    width: 200px;
+    height: 8px;
+    margin: auto;
+    margin-top: 20px;
+}
+      
+      .carousel-title {
+          color: black;
+          text-align: center;
+          font-size: 40px;
+          justify-content: center;
+      }
+      
+      .carousel {
+          padding: 40px 0px 70px;
+      }
+      
+      
+.carousel-indicator {
+  width: 30px;  Используем конкретное значение 
+  height: 3px;
+  opacity: 0.5;
+  background-color: blue;
+  transition: opacity 0.6s ease;
+}
+
+/*
+.carousel-indicator.active {
+  opacity: 1;
+}
+*/
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: $carousel-control-width;
+  margin-bottom: 1rem;
+  margin-left: $carousel-control-width;
+  gap: 10px;
+
+  [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 30px;
+    margin-right: $carousel-indicator-spacer;
+    margin-left: $carousel-indicator-spacer;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #d6d6d6;
+    background-clip: padding-box;
+    border: 0;
+    border-top: $carousel-indicator-hit-area-height solid transparent;
+    border-bottom: $carousel-indicator-hit-area-height solid transparent;
+    @include transition($carousel-indicator-transition);
+  }
+
+  .active {
+          background-color: #fead41;
+    opacity: 1;
+  }
+}
+
+  </style>
+</head>
+<body>
+<div class="carousel">
+<h2 class="carousel-title">Our Clients Review</h2>
+<div class="carousel-poloska"></div>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button class="carousel-btn active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="reviews">
+        <div class="review-user">
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Jimmy Minna</p>
+          <p class="review-title">Graphic Designer</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+        <div class="review-user">
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Robert Joe</p>
+          <p class="review-title">Developer</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="reviews">
+        <div class="review-user">
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Josin Meila</p>
+          <p class="review-title">Invester CEO</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+        <div class="review-user"> 
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Robert Joe</p>
+          <p class="review-title">Developer</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="reviews">
+        <div class="review-user">
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Jimmy Minna</p>
+          <p class="review-title">constructor</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+        <div class="review-user">
+          <p class="review-text">
+            Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+          </p>
+          <p class="review-name">Jimmy Minna</p>
+          <p class="review-title">Graphic Designer</p>
+          <img src="img/quote.png" class="review-quote" alt="quote">
+        </div>
+      </div>
+    </div>
+  </div>
+<!--
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+-->
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+            <div class="reviews">
+                <div class="review-user">
+                    <p class="review-text">
+                        Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+                    </p>
+                    <p class="review-name">
+                        Jimmy Minna
+                    </p>
+                    <p class="review-title">
+                        Graphic Designer
+                    </p>
+                    <img src="img/quote.png" class="review-quote" alt="quote">
+                </div>
+            <div class="reviews">
+                <div class="review-user">
+                    <p class="review-text">
+                        Cras mush pardon you knees up he lost his bottle it's all gone to pot faff about porkies are, barney argy-bargy cracking goal loo cheers spend.! porkies arse, barney.
+                    </p>
+                    <p class="review-name">
+                        Robert Joe
+                    </p>
+                    <p class="review-title">
+                        Developer
+                    </p>
+                    <img src="img/quote.png" class="review-quote" alt="quote">
+                </div>
+            </div>
+        </div>
+-->

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Example</title>
+    <style>
+.answ {
+    font-family: Arial, sans-serif;
+    background-color: #fead41;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.answ-text {
+    width: 60%;
+    margin-right: 100px;
+
+}
+
+.answers {
+    width: 35%;
+    padding-right: 190px;
+    
+}
+
+.answ-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffefef;
+    width: 500px;
+}
+
+.answ-item-title {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #ffefef;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    overflow: hidden; 
+    color: black;
+}
+
+
+.answ-item-title:hover {
+    background-color: #ffefef;
+}
+
+.answ-item-answ {
+    background-color: #fead41;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Анимация для открытия и закрытия */
+}
+
+.answ-item.active .answ-item-answ {
+    max-height: 200px;
+}
+
+.answ-item-answ p {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-answ {
+    background-color: #f06292;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="answ">
+        <div class="answ-text">
+            <h1>It's All About Innovate Your Business Create Construction</h1>
+            <p>Cras sed gravida ex. Praesent semper consequat nisl, id mollis mi semper ac. Nullam eget gravida lectus. Vivamus arcu ante, varius a sem in, scelerisque sollicitudin. Et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>In nec est at nisl malesuada ultricies. Duis ornare ex neque. Et magnis dis parturient montes, nascetur ridiculus mus. In nec est at nisl malesuada ultricies. Duis ornare ex neque.</p>
+            <button class="btn btn-answ">Get more</button>
+        </div>
+        <div class="answers">
+            <div class="answ-item">
+                <div class="answ-item-title">How Can I Purchase This Item?</div>
+                <div class="answ-item-answ">
+                    <p>Tempora incidunt ut labore et dolore exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="answ-item">
+                <div class="answ-item-title">What Are Features Inside The Template?</div>
+                <div class="answ-item-answ">
+                    <p>Tempora incidunt ut labore et dolore exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="answ-item">
+                <div class="answ-item-title">What Are The Plugins Used?</div>
+                <div class="answ-item-answ">
+                    <p>Tempora incidunt ut labore et dolore exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="answ-item">
+                <div class="answ-item-title">What Are Features Inside The Template?</div>
+                <div class="answ-item-answ">
+                    <p>Tempora incidunt ut labore et dolore exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.answ-item-title').forEach(item => {
+            item.addEventListener('click', () => {
+                const currentlyActiveItem = document.querySelector('.answ-item.active');
+                if (currentlyActiveItem && currentlyActiveItem !== item.parentElement) {
+                    currentlyActiveItem.classList.remove('active');
+                }
+                item.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
