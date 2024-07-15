@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Dash Site Update</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .toggle {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .toggle input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .toggle .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+        .toggle .slider:before {
+            content: "\1F1FA\1F1F8"; /* Unicode for US flag emoji */
+            display: inline-block;
+            font-size: 20px;
+            line-height: 30px;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+        }
+        input:checked + .slider:before {
+            content: "\1F1F7\1F1FA"; /* Unicode for RU flag emoji */
+            transform: translateX(26px);
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Geometry Dash Site Update</h1>
+        <p>Welcome! My name is Arseny, and I have decided to update the Geometry Dash website myself.</p>
+        <p>In this folder, you will find the necessary CSS and scripts for the site. Soon, I will also develop an extension that will automatically change the CSS and JavaScript styles on the site, so you can see the new design. However, you can also do this manually.</p>
+        <div class="toggle">
+            <label class="switch">
+                <input type="checkbox" onclick="toggleLanguage()">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="links">
+            <a href="https://ars2nb.github.io/gd_site/register.css" target="_blank">Download register.css</a>
+            <a href="https://ars2nb.github.io/gd_site/register.js" target="_blank">Download register.js</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            var toggleSwitch = document.querySelector('.toggle input');
+            var bodyElement = document.querySelector('body');
+            if (toggleSwitch.checked) {
+                bodyElement.setAttribute('lang', 'ru');
+                document.title = 'Обновление сайта Geometry Dash';
+                document.querySelector('h1').textContent = 'Обновление сайта Geometry Dash';
+                document.querySelectorAll('p')[0].textContent = 'Добро пожаловать! Меня зовут Арсений, и я решил обновить сайт Geometry Dash самостоятельно.';
+                document.querySelectorAll('p')[1].textContent = 'В данной папке вы найдете необходимые CSS и скрипты для сайта. В скором времени я также разработаю расширение, которое автоматически изменит стили CSS и JavaScript на сайте, чтобы вы могли увидеть новый дизайн. Тем не менее, вы можете сделать это и вручную.';
+                document.querySelectorAll('.links a')[0].textContent = 'Скачать register.css';
+                document.querySelectorAll('.links a')[1].textContent = 'Скачать register.js';
+            } else {
+                bodyElement.setAttribute('lang', 'en');
+                document.title = 'Geometry Dash Site Update';
+                document.querySelector('h1').textContent = 'Geometry Dash Site Update';
+                document.querySelectorAll('p')[0].textContent = 'Welcome! My name is Arseny, and I have decided to update the Geometry Dash website myself.';
+                document.querySelectorAll('p')[1].textContent = 'In this folder, you will find the necessary CSS and scripts for the site. Soon, I will also develop an extension that will automatically change the CSS and JavaScript styles on the site, so you can see the new design. However, you can also do this manually.';
+                document.querySelectorAll('.links a')[0].textContent = 'Download register.css';
+                document.querySelectorAll('.links a')[1].textContent = 'Download register.js';
+            }
+        }
+    </script>
+</body>
+</html>
